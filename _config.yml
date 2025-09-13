@@ -105,3 +105,17 @@ deploy:
   repo: https://github.com/layz-x/layz-x.github.io.git
   branch: main
   token: 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
+
+local_search:
+  enable: true
+
+search:
+  path: search.json
+  field: post
+  content: true
+  format: striptags
+
+feed:
+  type: atom
+  path: atom.xml
+  limit: 20

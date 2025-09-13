@@ -12,7 +12,7 @@ base_info:
   primary_color: "#0066cc"
 
   # Blog website title
-  title: Lay Zzzzzz
+  title: Java/大数据
 
   # Blog website author name
   author: Lay-z
@@ -37,7 +37,7 @@ menu:
   Java: /                       # || fa-solid fa-home
   大数据: /archives           # || fa-solid fa-box-archive
   # tags: /tags                 # || fa-solid fa-tags
-  categories: /categories     # || fa-solid fa-layer-group
+  # categories: /categories     # || fa-solid fa-layer-group
   # links: /links               # || fa-solid fa-link
   # photos: /photos             # || fa-solid fa-image
   # tools: /tools               # || fa-solid fa-tools
@@ -62,14 +62,14 @@ first_screen:
   description: Keep writing and Keep loving.
 
   # If enable hitokoto, first screen description is different every time when you enter the website
-  hitokoto: true      # Option values: true | false
+  hitokoto: false      # Option values: true | false
 
 
 # ---------------------------------------------------------------------------------------
 # Docs: https://keep-docs.xpoet.cn/basis/configuration-guide/social_contact.html
 # ---------------------------------------------------------------------------------------
 social_contact:
-  enable: true      # Option values: true | false
+  enable: false      # Option values: true | false
   links:
     # Fill in your social platform links here, e.g. `github: https://github.com/XPoet`
     # If you want to click open the picture, you need to add a prefix `img | `,
@@ -193,10 +193,10 @@ website_count:
   # busuanzi
   # See: http://ibruce.info/2015/04/04/busuanzi/
   busuanzi_count:
-    enable: true     # Option values: true | false
-    site_uv: true    # Option values: true | false
-    site_pv: true    # Option values: true | false
-    page_pv: true    # Option values: true | false
+    enable: false     # Option values: true | false
+    site_uv: false    # Option values: true | false
+    site_pv: false    # Option values: true | false
+    page_pv: false    # Option values: true | false
 
 
 # ---------------------------------------------------------------------------------------
@@ -288,14 +288,14 @@ rss:
 # Docs: https://keep-docs.xpoet.cn/basis/configuration-guide/lazyload.html
 # ---------------------------------------------------------------------------------------
 lazyload:
-  enable: true  # Option values: true | false
+  enable: false  # Option values: true | false
 
 
 # ---------------------------------------------------------------------------------------
 # Docs: https://keep-docs.xpoet.cn/basis/configuration-guide/cdn.html
 # ---------------------------------------------------------------------------------------
 cdn:
-  enable: true       # Option values: true | false
+  enable: false       # Option values: true | false
   provider: cdnjs     # Option values: cdnjs | jsdelivr | unpkg
 
 
